@@ -1,0 +1,31 @@
+.ngdialog.ngdialog-theme-default .ngdialog-content {
+      font-size: 1.1em;
+      background-color: rgba(255, 255, 255, 0);
+      line-height: 2.5em;
+      margin: 0 auto;
+      max-width: 35%;
+      margin-top: 5%;
+}
+.ngdialog-overlay {
+      background: rgba(0, 0, 0, 0.85);
+}
+.form-popup{
+      background-color: white !important;
+      padding: 25px !important;
+      box-shadow: 0px 1px 40px 0px #8b8bec !important;
+}
+@media (max-width: 890px) {
+      .ngdialog.ngdialog-theme-default .ngdialog-content {
+            max-width: 50%;
+      }
+}
+@media (max-width: 550px) {
+      .ngdialog.ngdialog-theme-default .ngdialog-content {
+            max-width: 70%;
+      }
+}
+@media (max-width: 400px) {
+      .ngdialog.ngdialog-theme-default .ngdialog-content {
+            max-width: 100%;
+      }
+}
